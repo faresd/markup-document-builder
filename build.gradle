@@ -12,7 +12,7 @@ buildscript {
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
     }
 }
-description = 'A Markup (Markdown, AsciiDoc) document builder'
+description = 'Markup (Markdown, AsciiDoc) document builder, updated for a usage in AODocs'
 version = '0.1.5.1'
 group = 'io.github.robwin'
 
