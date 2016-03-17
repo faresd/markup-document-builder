@@ -68,7 +68,7 @@ public abstract class AbstractMarkupDocBuilder implements MarkupDocBuilder {
     }
 
     protected void paragraph(Markup markup, String text){
-        documentBuilder.append(markup).append(newLine).append(text).append(newLine).append(newLine);
+        documentBuilder.append(markup).append(newLine).append(text).append(newLine).append(newLine).append(markup).append(newLine);
     }
 
     protected void listing(Markup markup, String text){

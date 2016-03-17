@@ -68,7 +68,7 @@ public class AsciiDocBuilder extends AbstractMarkupDocBuilder {
 
     @Override
     public MarkupDocBuilder paragraph(String text){
-        paragraph(AsciiDoc.HARDBREAKS, text);
+        paragraph(AsciiDoc.PASSTHROUGHT, text);
         return this;
     }
 
